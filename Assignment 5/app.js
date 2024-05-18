@@ -1,5 +1,6 @@
 // Task 5
-// Addition
+document.write("<h1>Chapter 5</h1>>");
+
 var x = 3;
 var y = 5;
 console.log(x + y, x - y, x * y, x / y, x % y);
@@ -71,7 +72,7 @@ var person = 5;
 var totalCost = ticketPrice * person;
 document.write("Total cost to buy 5 tickets to a movie is " + totalCost + "PKR" + "<br> <hr>");
 
-document.write("Table of 4 <br>");
+document.write("<h1>Table of 4 </h1><br>");
 var tableNum = 4;
 var counter = 1;
 var incre = 1;
