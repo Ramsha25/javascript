@@ -1,5 +1,6 @@
 document.write("<h1>Chapter 6 to 9</h1>");
 
+// Questipon 1
 var a = 10;
 console.log(a);
 ++a;
@@ -23,6 +24,7 @@ document.write(
 "Now the value of a is " + a + "<br> <hr>"
 );
 
+// Question 2
 var a = 2;
 var b = 1;
 var result = --a - --b + ++b + b--;
@@ -33,14 +35,20 @@ document.write(
 "result is " + result + "<hr>"
 );
 
-var subj1 =  Science;
-var subj2 = Math;
-var subj3 = Urdu;
-var totalMarksOfSubj1 = 100;
-var totalMarksOfSubj2 = 100;
-var totalMarksOfSubj3 = 100;
-var obtMarks1 = 54;
-var obtMarks2 = 54;
-var obtMarks3 = 48;
-var totalMarksOfSubj = totalMarksOfSubj1 + totalMarksOfSubj2 + totalMarksOfSubj3;
-console.log(totalMarksOfSubj);
+// Question 3
+var name = prompt("What's your name?");
+if(name === "Ramsha"){
+    alert("Hello");
+}
+
+// Question 6
+var subj1 = prompt("Enter Subject 1 name?");
+var subj2 = prompt("Enter Subject 2 name?");
+var subj3 = prompt("Enter Subject 3 name?");
+var totalMarks = 100;
+var obtainedMarks1 = +prompt("Enter obtained marks for subj 1");
+var obtainedMarks2 = +prompt("Enter obtained marks for subj 2");
+var obtainedMarks3 = +prompt("Enter obtained marks for subj 3");
+var totalObtainedMarks = obtainedMarks1 + obtainedMarks2 + obtainedMarks3;
+var percentage = totalObtainedMarks / (totalMarks * 3) * 100;
+alert(`Total Marks: ${totalObtainedMarks}/${totalMarks * 3}\r\nPercentage: ${percentage.toFixed(2)}%`);
