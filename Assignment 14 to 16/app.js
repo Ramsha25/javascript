@@ -36,8 +36,8 @@ document.write(
 "5- BCOM" + "<br>" +
 "6- MS" + "<br>" +
 "7- M.Phil" + "<br>" +
-"8- PhD" + "<br>" + "<br>"
-)
+"8- PhD" + "<br>" + "<br>" 
+);
 
 // Question 10
 var stuScores = [320, 230, 480, 120];
@@ -88,7 +88,3 @@ console.log(lifoArray.shift());
 console.log(lifoArray.shift());
 console.log(lifoArray.shift());
 console.log(lifoArray.shift());
-
-// Question 15
-var phoneManufactures = ["Apple", "Samsung", "Motorola", "Sony", "Sony & Haier"];
-console.log(phoneManufactures)
