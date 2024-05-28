@@ -1,12 +1,13 @@
 document.write("<h1>Chapter 14 to 16</h1>")
 
 // Question 1
-var studentName = [];
+var studentNames = [];
 console.log([]);
 
 // Question 2
-var stuName = [];
-console.log([]);
+// let studentNames = newArray();
+
+
 
 // Question 3
 var strArrays = ["Ramsha", "Rubina", "Rida", "Amna"];
@@ -27,17 +28,17 @@ console.log("mixedArrays");
 // Question 7
 var educationQualification = ["SSC", "HSC", "BCS", "BS", "BCOM", "MS", "M.Phil", "PhD"];
 console.log(educationQualification);
-document.write(
-"<h1>Qualifications:</h1>" + "<br>" +
-"1- SSC" + "<br>" +
-"2- HSC" + "<br>" +
-"3- BSC" + "<br>" +
-"4- BS" + "<br>" +
-"5- BCOM" + "<br>" +
-"6- MS" + "<br>" +
-"7- M.Phil" + "<br>" +
-"8- PhD" + "<br>" + "<br>" 
-);
+document.write("<h1>Qualifications:</h1>" + "<br>" )
+document.write("<ol>")
+document.write("<li>"+educationQualification[0] +"</li>")
+document.write("<li>"+educationQualification[1] +"</li>")
+document.write("<li>"+educationQualification[2] +"</li>")
+document.write("<li>"+educationQualification[3] +"</li>")
+document.write("<li>"+educationQualification[4] +"</li>")
+document.write("<li>"+educationQualification[5] +"</li>")
+document.write("<li>"+educationQualification[6] +"</li>")
+document.write("<li>"+educationQualification[7] +"</li>")
+document.write("</ol>")
 
 // Question 10
 var stuScores = [320, 230, 480, 120];
@@ -88,3 +89,13 @@ console.log(lifoArray.shift());
 console.log(lifoArray.shift());
 console.log(lifoArray.shift());
 console.log(lifoArray.shift());
+
+// Question 15
+var phoneManufactures = ["Apple", "Samsung", "Motorola", "Nokia", "Sony & Haier"];
+document.write("<select>")
+document.write("<option>"+phoneManufactures[0]+"</option>")
+document.write("<option>"+phoneManufactures[1]+"</option>")
+document.write("<option>"+phoneManufactures[2]+"</option>")
+document.write("<option>"+phoneManufactures[3]+"</option>")
+document.write("<option>"+phoneManufactures[4]+"</option>")
+document.write("</select>")
