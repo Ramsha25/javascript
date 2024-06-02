@@ -11,7 +11,7 @@ console.log([]);
 
 // Question 3
 var strArrays = ["Ramsha", "Rubina", "Rida", "Amna"];
-console.log(strArrays);
+console.table(strArrays);
 
 // Question 4
 var numArrays = [1, 2, 3, 4, 5];
