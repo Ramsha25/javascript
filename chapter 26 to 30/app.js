@@ -31,3 +31,8 @@ console.log(result);
 var randomNum = Math.random();
 var newRandom = Math.floor(Math.random() * 100) + 1;
 console.log(newRandom);
+
+// Task 3
+var num = +prompt("Enter number");
+var newNum = Math.abs(num);
+alert(newNum);

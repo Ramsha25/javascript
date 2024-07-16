@@ -121,13 +121,10 @@ validUsername();
 
 // Task 16
 let university = "University of Karachi";
-let arrUniversity = university.split(" ");
+let arrUniversity = university.split(",");
 alert(arrUniversity);
-document.write("<ul>")
-document.write("<li>" + arrUniversity + "</li>")
-document.write("</ul>")
 
-// Task 17
+// // Task 17
 var word = "Pakistan";
 var alphabet = word.charAt(7);
 alert(alphabet);
